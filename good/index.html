@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>资源web</title>
+</head>
+<style>
+  h3 {
+    text-align: center;
+  }
+
+  .hz {
+    width: 400px;
+    height: 100px;
+    border: solid 2px white;
+  }
+
+  img {
+    vertical-align: middle;
+  }
+
+  a {
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .change {
+    border: solid 2px blanchedalmond;
+    width: 400px;
+  }
+</style>
+
+<body>
+  <h3>电影</h3>
+  <div class="hz ">
+    <img src="./img/屏幕截图 2024-11-07 085104.png" alt="">
+    <a href="https://www.yinfans.net/topic/4k">音范丝 | 4K蓝光电影资源下载</a>
+  </div>
+  <h3>游戏</h3>
+  <div class="hz ">
+    <img src="./img/屏幕截图 2024-11-07 092722.png" alt="">
+    <a href="  https://www.gotvg.com/">游聚网</a>
+  </div>
+
+
+  <script>
+    const div = document.querySelector('.hz')
+    div.addEventListener('mouseenter', function () {
+      div.classList.toggle('change')
+
+    })
+    div.addEventListener('mouseleave', function () {
+      div.classList.toggle('change')
+
+    })
+
+  </script>
+</body>
+
+</html>
